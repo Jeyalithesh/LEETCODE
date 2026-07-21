@@ -1,6 +1,6 @@
 class Solution:
     def twoSum(self, nums, target):
-        seen = {}
+        seen = {} #001
 
         for i, num in enumerate(nums):
             complement = target - num
